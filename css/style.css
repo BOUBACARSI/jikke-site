@@ -159,6 +159,16 @@ p{margin:0}
 .email{display:inline-flex;align-items:center;gap:10px;min-height:52px;padding:0 20px;border-radius:999px;background:var(--indigo);color:#fff;font-weight:700;text-decoration:none;margin-top:14px;word-break:break-all}
 .retour{display:inline-flex;align-items:center;gap:8px;min-height:48px;font-weight:700;color:var(--indigo);text-decoration:none}
 
+/* Pages légales (conditions d'utilisation, confidentialité) */
+.legal .maj{color:var(--gris);font-size:15px;margin-top:10px}
+.legal .bloc p+p,.legal .bloc p+ul,.legal .bloc ul+p,.legal .bloc h3+p,.legal .bloc h3+ul{margin-top:12px}
+.legal .bloc h3{font-family:var(--texte);font-weight:700;font-size:18px;letter-spacing:0;color:var(--encre);margin-top:18px}
+.legal .bloc a{color:var(--indigo);font-weight:700;text-underline-offset:3px;overflow-wrap:anywhere}
+.sommaire ol{gap:2px}
+.legal .sommaire a{display:inline-block;padding:6px 0;text-decoration:none;font-weight:400}
+.sommaire a:hover{text-decoration:underline}
+.legal .bloc[id]{scroll-margin-top:16px}
+
 /* Tablette et ordinateur */
 @media (min-width:720px){
   :root{--gouttiere:32px}

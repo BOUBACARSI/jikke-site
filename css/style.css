@@ -163,7 +163,7 @@ p{margin:0}
 .legal .maj{color:var(--gris);font-size:15px;margin-top:10px}
 .legal .bloc p+p,.legal .bloc p+ul,.legal .bloc ul+p,.legal .bloc h3+p,.legal .bloc h3+ul{margin-top:12px}
 .legal .bloc h3{font-family:var(--texte);font-weight:700;font-size:18px;letter-spacing:0;color:var(--encre);margin-top:18px}
-.legal .bloc a{color:var(--indigo);font-weight:700;text-underline-offset:3px;overflow-wrap:anywhere}
+.legal .bloc a:not(.email){color:var(--indigo);font-weight:700;text-underline-offset:3px;overflow-wrap:anywhere}
 .sommaire ol{gap:2px}
 .legal .sommaire a{display:inline-block;padding:6px 0;text-decoration:none;font-weight:400}
 .sommaire a:hover{text-decoration:underline}
